@@ -10,3 +10,23 @@ body{background-color:#cd853F;
   border-top: 1px solid #fdf5e6;
   border-bottom: 1px solid #fdf5e6
 }
+
+*{
+  box-sizing: border-box;
+}
+
+.box{
+  float: left;
+  width: 25%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px
+  }
+
+.clearfix:: after{
+  content:"";
+  clear: both;
+  display: table;
+}
+
